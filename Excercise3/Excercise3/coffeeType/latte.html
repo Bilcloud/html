@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Cafe</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/coffee.css">
+    <script>
+        function printPage() {
+            window.print();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="../images/coffeelogo.jpg" alt="coffee logo" height="80">
+        <hgroup>
+            <h1>The Cafe</h1>
+            <h2>Celebrating our <span class="shadow">1<sup>st</sup></span> anniversary</h2>
+        </hgroup>
+    </header>
+    <nav>
+
+        <ul>
+            <li><a class="current" href="../index.html">Home</a></li>
+            <li><a href="../coffeeType/image_swaps.html">Coffee Types</a></li>
+            <li><a href="../tickets.html">Order Coffee</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <input type="button" id="print" value="Print Page" onClick="printPage()">
+        <h1 id="speakers">Today's Special</h1>
+        <h2>Morning <br><a href="americano.html">Americano</a></h2>
+        <img src="../images/coffee1.jpg" alt="americano">
+        <h2>Afternoon <br><a href="cold.html">Cold coffee </a></h2>
+        <img src="../images/coffee3.jpg" alt="cold">
+        <h2>Evening<br><a href="latte.html">Latte</a></h2>
+        <img src="../images/coffee2.jpg" alt="latte">
+    </aside>
+    <footer>
+        <p>
+            <script type="text/javascript">
+                var today = new Date();
+                document.write("&copy;&nbsp;");
+                document.write(today.getFullYear());
+                document.write(", The Cafe stop, Kitchener, ON")
+            </script>
+        </p>
+
+    </footer>
+</body>
+
+</html>
