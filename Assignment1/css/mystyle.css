@@ -1,0 +1,24 @@
+h1{
+    color:rgba(243, 87, 14, 0.712) ;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+#pra1{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+ul{
+    color:rgb(156, 18, 156);
+}
+#pra2{
+    font-size: 14px;
+    color:rgb(248, 20, 218);
+    font-weight: bold;
+    
+    
+}
