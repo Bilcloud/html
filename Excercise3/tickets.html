@@ -25,6 +25,65 @@
         </ul>
     </nav>
 
+    <section>
+        <h1> Order form</h1>
+            <form action="register_account.html" method="GET" name="register_form" id="register_form">
+                <fieldset>
+                    <legend>Member Information</legend>
+                    
+                    <label for="first_name">First_name:</label>
+                    <input type="text" name="first_name" id="first_name">
+
+                    <br>
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state">
+                    <br>
+                    <label for="zip">ZIP Code:</label>
+                    <input type="text" name="zip" id="zip">
+                    <br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="phone" id="phone">
+                    <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Ordering Information</legend>
+                    <label for="tickets_number">Number of Tickets:</label>
+                    <input type="range" name="tickets_number" id="tickets_number">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Peyment Methods</legend>
+                    <input type="radio" name="payment_type" id="bill" value="bill" >
+                    <label for="bill">Bill Me</label>
+
+                    <input type="range" name="tickets_number" id="tickets_number">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Credit card Information</legend>
+                    <label for="card_type" id="card_type"> Card Type:</label>
+                    <select name="card_type" id="card_type"></select>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Master Card</option>
+                    <option value="discover">Discover</option>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Submit your Information</legend>
+                    <label>&nbsp;</label>
+
+                    <input type="submit" id="submit" value="Submit" >
+                    <input type="reset" id="reset" value="Reset Fields" >
+                    <br>
+                </fieldset>
+
+
+
+
+            </form>
+    </section>
+
 
     <aside>
         <h1 id="speakers">Today's Special</h1>
