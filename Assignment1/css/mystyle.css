@@ -1,19 +1,39 @@
+html{
+    font-size: 10px;
+    font-family: forte;
+    background-color: white;
+}
+#head1{
+    font-size: 100px;
+    color: #C54576;
+}
+body{
+    width: 700px;
+    padding: 0 20px 20px 20px;
+    margin-right: 0 auto;
+}
 h1{
-    color:rgba(243, 87, 14, 0.712) ;
+    color:rgba(189, 43, 6, 0.747) ;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2{
-    font-size: 26px;
-    font-weight: bold;
+    font-size: 20px;
+
 }
 #pra1{
-    font-size: 20px;
-    color: red;
-    font-weight: bold;
+    font-size: 15px;
+ 
 }
-ul{
-    color:rgb(156, 18, 156);
+#img1{
+    float: left;
+    width: 270px;
+    height: 280px;
+    box-shadow: 2px 1px 8px #7a005c;
+}
+#list1{
+    padding: 10px 0 0 62px;
+    font-size: 12px;
 }
 #pra2{
     font-size: 14px;
