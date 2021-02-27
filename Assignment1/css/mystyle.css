@@ -1,5 +1,5 @@
 html{
-    font-size: 8px;
+    font-size: 10px;
     font-family: forte;
     background-color: white;
 
@@ -23,7 +23,7 @@ body{
 }
 h1{
     font-size: 23px;
-    color:rgba(189, 43, 6, 0.747) ;
+    color:rgba(131, 30, 5, 0.802) ;
     font-family: forte;
 }
 h2{
@@ -44,53 +44,67 @@ h3::first-letter{
     color:rgba(133, 29, 3, 0.747) ; 
 }
 h3{
+    padding: 5px 10px 0 10px;
     font-size: 15px;
+    text-shadow: 1px 1px 1px brown;
 }
 
 #pra2{
     font-size: 14px;
     color:rgb(248, 20, 218);
-    font-weight: bold;
-    padding: 0 10px 0 0;    
+    font-weight: bold;   
 }
 #img1{
     float: left;
-    width: 270px;
-    height: 280px;
-    box-shadow: 2px 1px 8px #7a005c;
+    width: 280px;
+    height: 270px;
+    box-shadow: 3px 3px 10px #7a005c;
     margin: 1px;
+    
 }
 #img2{
     float: right;
     width: 220px;
-    height: 280px;
+    height: 260px;
     box-shadow: 2px 1px 8px #7a005c;
-    margin: 1px;
+    margin: 8px;
 }
 li:first-child {
     font-weight: bold;    
 }
 
 #list1{
-    padding: 10px 0 0 80px;
-    font-size: 12px;
+    list-style-position: inside;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 #list2{
- 
+    padding: 5px 10px 0 25px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 
 #list3{
-
+    list-style-position: inside;
+    padding: 5px 10px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+
 }
 footer{
-    font-family: Murach;
+    font-family: Arial, Helvetica, sans-serif;
     width: 700px;
     height: 70px;
     text-align: center;
     border: 2px solid #8a0404;
     background-color: #d6c9a6;
+}
+footer p {
+    font-size: 9px;
+    font-style: italic;
+    padding: 15px 0 2px 0;
+    text-align: center;
+    font-weight: bolder; 
 }
