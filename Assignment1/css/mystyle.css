@@ -1,44 +1,96 @@
 html{
-    font-size: 10px;
+    font-size: 8px;
     font-family: forte;
     background-color: white;
+
 }
+header{
+    width: 700px;
+    height: 110px;
+    border: 1px solid #970606;
+    box-shadow: 0 0px 8px 1px #c50505;
+    background-color: #d6c9a6;
+}
+
 #head1{
     font-size: 100px;
     color: #C54576;
 }
 body{
     width: 700px;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 20px 40px;
     margin-right: 0 auto;
 }
 h1{
+    font-size: 23px;
     color:rgba(189, 43, 6, 0.747) ;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: forte;
 }
 h2{
-    font-size: 20px;
+    font-size: 19px;
+
+}
+#pra1::first-letter{
+    font-size: 30px;
+    color:rgba(133, 29, 3, 0.747) ;
 
 }
 #pra1{
+    font-size: 16px;
+    padding: 0 0 0 10px;
+}
+h3::first-letter{
+    font-size: 30px;
+    color:rgba(133, 29, 3, 0.747) ; 
+}
+h3{
     font-size: 15px;
- 
+}
+
+#pra2{
+    font-size: 14px;
+    color:rgb(248, 20, 218);
+    font-weight: bold;
+    padding: 0 10px 0 0;    
 }
 #img1{
     float: left;
     width: 270px;
     height: 280px;
     box-shadow: 2px 1px 8px #7a005c;
+    margin: 1px;
 }
+#img2{
+    float: right;
+    width: 220px;
+    height: 280px;
+    box-shadow: 2px 1px 8px #7a005c;
+    margin: 1px;
+}
+li:first-child {
+    font-weight: bold;    
+}
+
 #list1{
-    padding: 10px 0 0 62px;
+    padding: 10px 0 0 80px;
+    font-size: 12px;
+
+}
+
+#list2{
+ 
     font-size: 12px;
 }
-#pra2{
-    font-size: 14px;
-    color:rgb(248, 20, 218);
-    font-weight: bold;
-    
-    
+
+#list3{
+
+    font-size: 12px;
+}
+footer{
+    font-family: Murach;
+    width: 700px;
+    height: 70px;
+    text-align: center;
+    border: 2px solid #8a0404;
+    background-color: #d6c9a6;
 }
