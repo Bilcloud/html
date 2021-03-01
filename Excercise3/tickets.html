@@ -33,16 +33,18 @@
                     
                     <label for="first_name">First_name:</label>
                     <input type="text" name="first_name" id="first_name">
+                    <br>
 
-                    <br>
                     <label for="state">State:</label>
-                    <input type="text" name="state" id="state">
+                    <input type="text" name="state" id="state" placeholder="2 character code">                 
                     <br>
+
                     <label for="zip">ZIP Code:</label>
-                    <input type="text" name="zip" id="zip">
+                    <input type="text" name="zip" id="zip" placeholder="5 or 9 digits"> 
                     <br>
+
                     <label for="phone">Phone Number:</label>
-                    <input type="text" name="phone" id="phone">
+                    <input type="text" name="phone" id="phone" placeholder="999-999-9999">
                     <br>
                 </fieldset>
 
@@ -52,27 +54,27 @@
                     <input type="range" name="tickets_number" id="tickets_number">
                 </fieldset>
 
-                <fieldset>
+                <fieldset id="radio">
                     <legend>Peyment Methods</legend>
                     <input type="radio" name="payment_type" id="bill" value="bill" >
                     <label for="bill">Bill Me</label>
                     <input type="radio" name="payment_type" id="credit" value="credit" >
                     <label for="credit">Credit card</label>
 
-                    <input type="range" name="tickets_number" id="tickets_number">
                 </fieldset>
 
                 <fieldset>
                     <legend>Credit card Information</legend>
                     <label for="card_type" id="card_type"> Card Type:</label>
-                    <select name="card_type" id="card_type"></select>
+                    <select name="card_type" id="card_type">
                     <option value="visa">Visa</option>
                     <option value="mastercard">Master Card</option>
                     <option value="discover">Discover</option>
+                </select><br>
                 </fieldset>
 
-                <fieldset>
-                    <legend>Submit your Information</legend>
+                <fieldset id="buttons">
+                    <legend>Submit your Membership</legend>
                     <label>&nbsp;</label>
 
                     <input type="submit" id="submit" value="Submit" >
