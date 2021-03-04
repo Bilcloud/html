@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <h1>Sales table with CSS3 formatting</h1>
+ 
+ </head>
+
+ <body>
+     <style>
+        table{
+            border-collapse: collapse;
+            border: 1px solid black;
+            margin: 10px;
+        } 
+        thead{
+            background-color: aqua;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+        th, td{
+            padding: .2em .7em;
+            text-align: right;
+            border: 1px solid black;
+        }
+        th:first-child,
+        td:first-child{
+            text-align: left;
+        }
+        td:nth-child(2),
+        td:nth-child(2){
+            text-align: center;
+        }
+        tbody tr:nth-child(even){
+            background-color: silver;
+        }
+
+     </style>
+     <table>
+         <thead>
+             <tr>
+                 <th>Book</th>
+                 <th>Year Published</th>
+                 <th>Sales</th>
+
+             </tr>
+
+         </thead>
+         <tbody>
+             <tr>
+                 <td>PHP and SQL</td>
+                 <td> 2017</td>
+                 <td> $123</td>
+             </tr>
+             <tr>
+                <td>JQuery</td>
+                <td> 2021</td>
+                <td> $123</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td> 1992</td>
+                <td> $123</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td> 2018</td>
+                <td> $123</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td> 2021</td>
+                <td> $123</td>
+            </tr>
+            <tr>
+                <td>C#</td>
+                <td> 2002</td>
+                <td> $123</td>
+            </tr>
+         </tbody>
+
+         <tfoot>
+             <TR>
+                 <th>Total Sales</th>
+                 <th>Total Sales</th>
+                 <th>738</th>
+             </TR>
+         </tfoot>
+
+     </table>
+  
+ </body>
+
+
+</html>
