@@ -36,15 +36,15 @@
                     <br>
 
                     <label for="state">State:</label>
-                    <input type="text" name="state" id="state" placeholder="2 character code">                 
+                    <input type="text" name="state" id="state" required maxlength="2" placeholder="2 character code">                 
                     <br>
 
                     <label for="zip">ZIP Code:</label>
-                    <input type="text" name="zip" id="zip" placeholder="5 or 9 digits"> 
+                    <input type="text" name="zip" id="zip" required placeholder="5 or 9 digits"> 
                     <br>
 
                     <label for="phone">Phone Number:</label>
-                    <input type="text" name="phone" id="phone" placeholder="999-999-9999">
+                    <input type="text" name="phone" id="phone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3][\-]\d{4}">
                     <br>
                 </fieldset>
 
