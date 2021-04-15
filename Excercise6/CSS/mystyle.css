@@ -1,0 +1,18 @@
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: darkkhaki;
+}
+
+h2 {
+    font-size: 20px;
+    color: brown;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    padding: 0 20px 20px 20px;
+    border: 3px solid black;
+}
