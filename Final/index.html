@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+/* Bilyan Nikolov #8667785 */
+<Html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="default.css"/>
+    <title>Final Exam</title>
+    <style>
+        div {
+  background-image: url('media\satradar.jpg');
+}
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        thead {
+            background-color: blanchedalmond;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+        
+        th,
+        td {
+            padding: .2em .7em;
+
+            border: 1px solid black;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        th:first-child,
+        {
+            text-align: left;
+        }
+        
+        th:nth-child(2),
+        td:nth-child(2) {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather Wizard</h1>
+        <br>
+        <br>
+        <a href="http://bing.com/" target="blank" title="Click Me">[Current Conditions] | [Forecast] | [Historical Data]</a> </br>
+        <br>  
+    </header>
+
+    <main>
+    <section>
+        <h2>Waterloo</h2>
+        <form action="result.html" method="get" name="result" id="result">
+
+            <label for="Location">My Location</label>
+            <select name="Location" id="Location">
+                <option value="Waterloo">Waterloo</option>
+                <option value="Kitchener">Kitchener</option>
+                <option value="Cambridge">Cambridge</option>
+            </select>&nbsp;
+            <table a>
+                <thead>
+                    <tr>
+                        <th style="padding-left:150px;" colspan="5">Current Conditions</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="media/00.png"/></td>
+                        <td>December 04, 2018</td>
+                    </tr>
+                    <tr>
+                        <td>Sunny <br>15 C</td>
+                        <td>Temperature 15C<br>Humidity 65%<br>Wind SW 5km/h
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="padding-left:150px;" colspan="5">Forecast Overview</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Tuesday</td>
+                    <td>Wendsday</td>
+                    <td>Thursday</td>
+                    <td>Friday</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="media/00.png"/></td>
+                    <td><img src="media/06.png"/></td>
+                    <td><img src="media/08.png"/></td>
+                    <td><img src="media/10.png"/></td>
+                    <td><img src="media/48.png"/></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>-8</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Forecast Detailed</h2>
+        <dl>
+            <dt>Monday</dt>
+                <dd>Mainly sunny. High of 6 Celsius</dd>
+            <dt>Tuesday</dt>
+                <dd>A few clouds, increasing cloudiness after midnight.</dd>
+            <dt>Wendsday</dt>
+                <dd>Mainly cloudy. 30% chance of flirries in the evening.</dd>
+            <dt>Thursday</dt>
+                <dd>Cloudy with 60% changes of snow.</dd>
+            <dt>Friday</dt>
+                <dd>Blizzard warning.</dd>
+        </dl>
+        <hr>
+
+        <h2>Historical Data</h2>
+        <p>Request a summary of selected readings...</p>
+        <h2>Weather Forecast</h2>
+        <form action="result.html" method="get" name="result" id="result">
+
+                <label for="year">Year and Season...</label>
+                <select name="year" id="year">
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                </select>&nbsp;
+
+                <select name="season" id="season">
+                    <option value="Winter">Winter</option>
+                    <option value="Spring">Spring</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Autumn">Autumn</option>
+
+                </select>
+ 
+
+            <fieldset id="radio">
+                <legend>Location</legend>
+
+                <input type="radio" id="id1" name="Location" value="Waterloo">
+                <label for="Waterloo">Waterloo</label><br>
+
+                <input type="radio" id="id1" name="Location" value="Kitchener">
+                <label for="Kitchener">Kitchener</label><br>
+
+                <input type="radio" id="id1" name="Location" value="Cambridge">
+                <label for="Cambridge">Cambridge</label><br>
+
+            </fieldset>
+
+            <fieldset id="checkbox">
+                <legend>Readings</legend>
+                <input type="checkbox" id="id1" name="Reading" value="Temperature">
+                <label for="Temperature">Temperature</label><br>
+
+                <input type="checkbox" id="id1" name="Reading" value="Humidity">
+                <label for="Humidity">Humidity</label><br>
+
+                <input type="checkbox" id="id1" name="Reading" value="Wind Speed">
+                <label for="Wind Speed">Wind Speed</label><br>
+
+            </fieldset>
+                <input type="reset" id="reset" value="Reset">
+                <input type="submit" id="submit" value="Request">
+ 
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+    <footer>
+		<p>Web design by [Bilyan Nikolov]. Contact the <a href="https://www.w3schools.com">webmaster</a> to inquire about hiring us for design work &copy; 2018 </p>
+	</footer>
+
+</body>
+
+</Html>
